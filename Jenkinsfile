@@ -6,7 +6,8 @@ node {
     //def buildInfo
 
     stage('Clone sources') {
-        git url: 'https://gitlab.com/axcelinno/android-demo-app.git'
+        //git url: 'https://gitlab.com/axcelinno/android-demo-app.git'
+        checkout scm
     }
 
 
